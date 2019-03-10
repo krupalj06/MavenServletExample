@@ -16,6 +16,10 @@ public class BarTest {
 		bar.setDrink("Red Wine");
 		bar.setPrice(360.00);
 		
+		bar.setBar_name("Bar");
+		bar.setDrink("white Wine");
+		bar.setPrice(400.00);
+		
 		BarDao bardao =new BarDao();
 		bardao.save(bar,factory);
 		
